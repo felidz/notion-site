@@ -46,23 +46,23 @@ export default siteConfig({
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
-    // pageUrlOverrides: null,
-    pageUrlOverrides: {
-        '/notes': 'f90d0e53e0d347798058961ea915836d',
-        '/projects': '7de8f32b86f742c8a92738e933ebcd8f',
-        '/about': '0f0e7213faec4619ba1d7f1b6df62e80',
-        '/zh': '3ec78f6765514d68b0e115723249d89f',
-        '/notes_zh': '23110bdb5fe84a0f8654709691376aa0',
-        '/projects_zh': '5234b1b67a8a4cc592b0d8891b6d865b',
-        '/about_zh': '9db33719482e4719847f6ef5e17f7145',
-        '/ja': 'd238166dba8d41ceb3a2a79c15df9903',
-        '/notes_ja': '51e05ec9ca874110ac373b4d25486bd1',
-        '/projects_ja': '20078b16add74f5ea367793ab667b03f',
-        '/about_ja': '33c959b6dcdb431aa0f9a3b38b878b7e',
-    },
+  // pageUrlOverrides: null,
+  pageUrlOverrides: {
+    '/notes': 'f90d0e53e0d347798058961ea915836d',
+    '/projects': '7de8f32b86f742c8a92738e933ebcd8f',
+    '/about': '0f0e7213faec4619ba1d7f1b6df62e80',
+    '/zh': '3ec78f6765514d68b0e115723249d89f',
+    '/notes_zh': '23110bdb5fe84a0f8654709691376aa0',
+    '/projects_zh': '5234b1b67a8a4cc592b0d8891b6d865b',
+    '/about_zh': '9db33719482e4719847f6ef5e17f7145',
+    '/ja': 'd238166dba8d41ceb3a2a79c15df9903',
+    '/notes_ja': '51e05ec9ca874110ac373b4d25486bd1',
+    '/projects_ja': '20078b16add74f5ea367793ab667b03f',
+    '/about_ja': '33c959b6dcdb431aa0f9a3b38b878b7e',
+  },
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
-  navigationStyle: 'default'
+  navigationStyle: 'custom'
   // navigationStyle: 'custom',
   // navigationLinks: [
   //   {
