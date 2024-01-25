@@ -21,9 +21,9 @@
   line-height: 1.65;
 }
 
-.index-page {
+/* .index-page {
   --notion-max-width: 900px;
-}
+} */
 
 .notion-text {
   padding: 0.5em 2px;
@@ -169,7 +169,7 @@
 
 .notion-title {
   display: block;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .notion-collection-row {
