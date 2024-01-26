@@ -45,7 +45,7 @@
 }
 
 .footer {
-  width: 95%;
+  /* width: 95%; */
   margin: auto auto 0;
   padding: 8px;
 
@@ -56,13 +56,13 @@
 }
 
 .copyright {
-  /* display: none; */
   font-size: 80%;
   padding: 0.5em;
 }
 
 .settings,
 .social {
+  display: none;
   user-select: none;
 }
 
