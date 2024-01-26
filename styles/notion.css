@@ -36,6 +36,15 @@
   padding: 0.5em 2px;
 }
 
+.notion-page-content-has-aside .notion-aside {
+  display: flex !important;
+}
+
+.notion-aside-table-of-contents {
+  max-width: 300px;
+}
+
+
 .notion-asset-caption {
   text-align: center;
 }
