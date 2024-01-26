@@ -139,7 +139,7 @@ export const FooterImpl: React.FC = () => {
       </div>
 
       <div className={styles.power}>
-        Build with
+        <span>Build with </span>
         <a href='https://www.notion.so/'>Notion</a>
         <span>, </span>
         <a href='https://vercel.com/'>Vercel</a>
