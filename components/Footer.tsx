@@ -49,7 +49,7 @@ export const FooterImpl: React.FC = () => {
           <span>. </span>
         </div>
       </p>
-
+      <br></br>
       <p>
         <div className={styles.copyright}>All rights reserved. © {config.author}. {startYear}-{currentYear}.</div>
       </p>
