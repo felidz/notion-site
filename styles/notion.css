@@ -60,7 +60,7 @@
 }
 
 .notion-header .notion-nav-header {
-  max-width: var(--notion-max-width);
+  max-width: 1330px;
   margin: 0 auto;
   overflow-x: auto;
 }
