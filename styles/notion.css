@@ -239,8 +239,7 @@
   position: relative;
   transition: unset;
   opacity: 1;
-  border-bottom: none;
-  border-bottom-width: 0.1rem;
+  border-bottom: 0.2px;
   background: transparent;
   background-origin: border-box;
   background-repeat: no-repeat;
