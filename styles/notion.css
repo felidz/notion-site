@@ -27,7 +27,7 @@
 
 .notion-full-width {
   box-sizing: border-box;
-  --notion-max-width: 90%;
+  --notion-max-width: 1280px;
   padding: 0px;
 }
 
