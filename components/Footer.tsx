@@ -39,16 +39,6 @@ export const FooterImpl: React.FC = () => {
     <footer className={styles.footer}>
       <div className={styles.copyright}>All rights © {config.author} reserved. {startYear}-{currentYear}.</div>
 
-      <div>
-        Build with
-        <a href='https://www.notion.so/'>Notion</a>
-        ,
-        <a href='https://vercel.com/'>Vercel</a>
-        ,
-        <a href='https://github.com/transitive-bullshit/nextjs-notion-starter-kit'>nextjs-notion-starter-kit</a>
-        .
-      </div>
-
       <div className={styles.settings}>
         {hasMounted && (
           <a
@@ -147,6 +137,17 @@ export const FooterImpl: React.FC = () => {
           </a>
         )}
       </div>
+
+      <div className={styles.power}>
+        Build with
+        <a href='https://www.notion.so/'>Notion</a>
+        <span>, </span>
+        <a href='https://vercel.com/'>Vercel</a>
+        <span>, </span>
+        <a href='https://github.com/transitive-bullshit/nextjs-notion-starter-kit'>nextjs-notion-starter-kit</a>
+        <span>. </span>
+      </div>
+
     </footer>
   )
 }

@@ -44,8 +44,10 @@
   width: 640px;
 }
 
+
 .footer {
   /* width: 95%; */
+  font-size: 80%;
   margin: auto auto 0;
   padding: 8px;
 
@@ -56,7 +58,6 @@
 }
 
 .copyright {
-  font-size: 80%;
   padding: 0.5em;
 }
 
