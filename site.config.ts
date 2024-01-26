@@ -60,7 +60,7 @@ export default siteConfig({
   //   '/projects_ja': '20078b16add74f5ea367793ab667b03f',
   //   '/about_ja': '33c959b6dcdb431aa0f9a3b38b878b7e',
   // },
-  includeNotionIdInUrls: false,
+  // includeNotionIdInUrls: false,
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
   navigationStyle: 'custom'
