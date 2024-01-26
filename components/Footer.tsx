@@ -37,7 +37,22 @@ export const FooterImpl: React.FC = () => {
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>All rights reserved. © {config.author}. {startYear}-{currentYear}.</div>
+
+      <p>
+        <div className={styles.power}>
+          <span>Build with </span>
+          <a href='https://www.notion.so/'>Notion</a>
+          <span>, </span>
+          <a href='https://vercel.com/'>Vercel</a>
+          <span>, </span>
+          <a href='https://github.com/transitive-bullshit/nextjs-notion-starter-kit'>nextjs-notion-starter-kit</a>
+          <span>. </span>
+        </div>
+      </p>
+
+      <p>
+        <div className={styles.copyright}>All rights reserved. © {config.author}. {startYear}-{currentYear}.</div>
+      </p>
 
       <div className={styles.settings}>
         {hasMounted && (
@@ -138,17 +153,7 @@ export const FooterImpl: React.FC = () => {
         )}
       </div>
 
-      <div className={styles.power}>
-        <span>Build with </span>
-        <a href='https://www.notion.so/'>Notion</a>
-        <span>, </span>
-        <a href='https://vercel.com/'>Vercel</a>
-        <span>, </span>
-        <a href='https://github.com/transitive-bullshit/nextjs-notion-starter-kit'>nextjs-notion-starter-kit</a>
-        <span>. </span>
-      </div>
-
-    </footer>
+    </footer >
   )
 }
 
