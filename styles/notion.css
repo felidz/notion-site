@@ -8,7 +8,7 @@
  */
 
 .notion {
-  --notion-max-width: 1920px;
+  --notion-max-width: 90%;
   --notion-header-height: 54px;
 }
 
@@ -22,8 +22,15 @@
 }
 
 .index-page {
-  --notion-max-width: 1920px;
+  --notion-max-width: 90%;
 }
+
+.notion-full-width {
+  box-sizing: border-box;
+  --notion-max-width: 90%;
+  padding: 0px;
+}
+
 
 .notion-text {
   padding: 0.5em 2px;
@@ -64,7 +71,7 @@
 }
 
 .notion-gallery-grid .notion-page-title-text {
-  font-size: 1.5em;
+  font-size: 16px;
   white-space: unset;
 }
 
